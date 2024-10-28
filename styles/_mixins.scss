@@ -1,0 +1,68 @@
+@mixin media-xxl {
+  @media screen and (max-width: $screen-width-xxl) {
+    @content;
+  }
+}
+
+@mixin media-xl {
+  @media screen and (max-width: $screen-width-xl) {
+    @content;
+  }
+}
+
+@mixin media-l {
+  @media screen and (max-width: $screen-width-l) {
+    @content;
+  }
+}
+
+@mixin media-m {
+  @media screen and (max-width: $screen-width-m) {
+    @content;
+  }
+}
+
+@mixin media-s {
+  @media screen and (max-width: $screen-width-s) {
+    @content;
+  }
+}
+
+@mixin media-desktop-pointer {
+  @media (-moz-touch-enabled: 0), (pointer: fine) {
+    @content;
+  }
+}
+
+@mixin media-mobile-pointer {
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
+@mixin transition {
+  transition: all;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+
+@mixin font-size {
+  font-size: 2.4rem;
+
+  @include media-l {
+    font-size: 2rem;
+  }
+
+  @include media-m {
+    font-size: 1.8rem;
+  }
+
+  @include media-s {
+    font-size: 1.6rem;
+  }
+}
+
+@mixin border($color) {
+  border: 0.1rem solid $color;
+  border-radius: 0.5rem;
+}
