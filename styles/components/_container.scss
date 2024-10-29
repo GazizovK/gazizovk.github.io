@@ -1,0 +1,29 @@
+.container {
+  margin: 0 auto;
+  max-width: 1320px;
+  height: 100%;
+  font-size: 2.4rem;
+
+  @include media-xxl {
+    max-width: 1140px;
+  }
+
+  @include media-xl {
+    max-width: 960px;
+  }
+
+  @include media-l {
+    max-width: 720px;
+    font-size: 2rem;
+  }
+
+  @include media-m {
+    max-width: 540px;
+    font-size: 1.8rem;
+  }
+
+  @include media-s {
+    width: 95%;
+    font-size: 1.6rem;
+  }
+}

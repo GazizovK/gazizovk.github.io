@@ -1,0 +1,140 @@
+.start-info {
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 4rem 0;
+
+    @include media-s {
+      flex-direction: column;
+    }
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    overflow: hidden;
+
+    @include media-l {
+      width: 25rem;
+    }
+
+    @include media-s {
+      width: 20rem;
+    }
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    font-weight: 400;
+
+    color: $primary-color;
+
+    @include media-l {
+      font-size: 2.4rem;
+    }
+  
+    @include media-m {
+      font-size: 2rem;
+    }
+  
+    @include media-s {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    @include media-s {
+      align-items: center;
+      row-gap: 1.5rem;
+    }
+  }
+
+  &__job-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+
+    @include media-s {
+      align-items: center;
+    }
+  }
+
+  &__job-description {
+    @include font-size;
+    font-weight: 300;
+    color: $primary-color;
+  }
+
+  &__social-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    @include media-s {
+      justify-content: center;
+    }
+  }
+
+  &__social-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    @include font-size;
+    font-weight: 300;
+    color: $primary-color;
+    text-decoration: none;
+
+    @include transition;
+
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1rem;
+      display: block;
+
+      width: 0%;
+      height: 0.2rem;
+      border: 0rem solid transparent;
+      border-radius: 0.5rem;
+
+      background-color: $accent-color;
+
+      @include transition;
+    }
+
+    &:hover {
+      color: $accent-color;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  &__social-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+
+    @include media-s {
+      width: 2.5rem;
+    }
+  }
+}

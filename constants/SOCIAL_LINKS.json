@@ -1,0 +1,17 @@
+[
+  {
+    "name": "LinkedIn",
+    "link": "https://linkedin.com/in/kgazizov/",
+    "icon": "../assets/icons/linkedin.svg"
+  },
+  {
+    "name": "Email",
+    "link": "mailto:kgazizov@ucmerced.edu",
+    "icon": "../assets/icons/mail.svg"
+  },
+  {
+    "name": "CV",
+    "link": "../assets/docs/kgazizov_cv.pdf",
+    "icon": "../assets/icons/cv.svg"
+  }
+]
