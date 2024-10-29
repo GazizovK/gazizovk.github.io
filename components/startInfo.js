@@ -65,7 +65,7 @@ async function getSocialLinks (path) {
 getJobInfo('./constants/JOB_INFO.json');
 getSocialLinks('./constants/SOCIAL_LINKS.json');
 
-startInfoContainer.innerHTML = '<div class="start-info__img"><img src="../assets/images/kuat-gazizov-photo.jpg" alt="Kuat Gazizov photo" /></div>';
+startInfoContainer.innerHTML = '<div class="start-info__img"><img src="./assets/images/kuat-gazizov-photo.jpg" alt="Kuat Gazizov photo" /></div>';
 infoContainer.innerHTML = '<h1 class="start-info__title">Kuat Gazizov</h1>';
 
 infoContainer.append(jobInfoContainer);
