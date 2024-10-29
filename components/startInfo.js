@@ -46,7 +46,7 @@ async function getSocialLinks (path) {
       const li = document.createElement('li');
 
       li.innerHTML = `
-      <a class="start-info__social-link" href=${socialLinks[i].link} target="_blank">
+      <a class="link start-info__social-link" href=${socialLinks[i].link} target="_blank">
         ${socialLinks[i].icon
           ? `<div class="start-info__social-link-icon"><img src=${socialLinks[i].icon} alt="${socialLinks[i].name} icon"/></div>`
           : ''
