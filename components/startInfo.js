@@ -72,4 +72,3 @@ infoContainer.append(jobInfoContainer);
 infoContainer.append(socialLinksContainer);
 startInfoContainer.append(infoContainer);
 startInfo.append(startInfoContainer);
-document.body.append(startInfo);

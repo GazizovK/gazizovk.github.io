@@ -1,3 +1,4 @@
+const aboutSectionsList = [];
 async function generateAboutSections (path) {
   try {
     const response = await fetch(path);
@@ -24,12 +25,10 @@ async function generateAboutSections (path) {
       }
 
       section.append(sectionContainer);
-      document.body.append(section);
+      aboutSectionsList.push(section);
     }
 
   } catch (error) {
     console.error(error.message);
   }
 }
-
-generateAboutSections('./constants/ABOUT.json');

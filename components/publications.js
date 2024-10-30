@@ -1,8 +1,8 @@
-const section = document.createElement('section');
+const publicationsSection = document.createElement('section');
 const sectionContainer = document.createElement('div');
 const publicationsContainer = document.createElement('ul');
 
-section.className = 'section';
+publicationsSection.className = 'section';
 sectionContainer.className = 'container section__container';
 publicationsContainer.className = 'section__list publications';
 
@@ -79,7 +79,4 @@ async function generatePublicationsSection (path) {
 }
 
 sectionContainer.append(publicationsContainer);
-section.append(sectionContainer);
-document.body.append(section);
-
-generatePublicationsSection('./constants/PUBLICATIONS.json');
+publicationsSection.append(sectionContainer);

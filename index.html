@@ -20,5 +20,18 @@
   <script type="text/javascript" src="./components/startInfo.js"></script>
   <script type="text/javascript" src="./components/about.js"></script>
   <script type="text/javascript" src="./components/publications.js"></script>
+
+  <script>
+    const appendSections = async () => {
+      await generateAboutSections('./constants/ABOUT.json');
+      await generatePublicationsSection('./constants/PUBLICATIONS.json');
+
+      document.body.append(startInfo);
+      aboutSectionsList.forEach((section) => document.body.append(section));
+      document.body.append(publicationsSection);
+    }
+
+    appendSections();
+  </script>
 </body>
 </html>
