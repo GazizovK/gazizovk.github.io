@@ -1,0 +1,61 @@
+.publications {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: $primary-color;
+    line-height: 3rem;
+
+    @include media-l {
+      line-height: 2.5rem;
+    }
+
+    @include media-m {
+      line-height: 2rem;
+    }
+
+    @include media-s {
+      line-height: 2rem;
+    }
+  }
+
+  &__conference-name {
+    font-weight: 400;
+  }
+
+  &__description {
+    font-style: italic;
+  }
+
+  &__target-author {
+    font-weight: 400;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  &__status {
+    font-weight: 400;
+  }
+
+  &__line {
+    width: 100%;
+    margin-top: 0.5rem;
+    height: 0.1rem;
+    border: 0rem solid transparent;
+    border-radius: 0.2rem;
+    background-color: $accent-color;
+    opacity: 0.2;
+  }
+
+  &__item:last-child &__line {
+    display: none;
+  }
+}

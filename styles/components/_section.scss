@@ -51,4 +51,9 @@
       line-height: 2rem;
     }
   }
+
+  &__list-item {
+    @include font-size;
+    font-weight: 300;
+  }
 }

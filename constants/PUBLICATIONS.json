@@ -1,0 +1,71 @@
+[
+  {
+    "conferenceName": "NeurIPS",
+    "authors": [
+      "M. Á. Carreira-Perpiñán",
+      "K. Gazizov"
+    ],
+    "targetAuthor": "K. Gazizov",
+    "title": "Hierarchical data visualization via PCA trees",
+    "description": "Advances in Neural Information Processing Systems",
+    "year": "2024",
+    "links": [],
+    "status": "Accepted"
+  },
+  {
+    "conferenceName": "BayLearn",
+    "authors": [
+      "M. Á. Carreira-Perpiñán",
+      "K. Gazizov"
+    ],
+    "targetAuthor": "K. Gazizov",
+    "title": "Hierarchical data visualization via PCA trees",
+    "description": "Extended abstract at Bay Area Machine Learning Symposium",
+    "year": "2024",
+    "links": [
+      {
+        "name": "external link",
+        "link": "#"
+      },
+      {
+        "name": "poster",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "conferenceName": "",
+    "authors": [
+      "K. Gazizov",
+      "A. Zharmagambetov",
+      "M. Á. Carreira-Perpiñán"
+    ],
+    "targetAuthor": "K. Gazizov",
+    "title": "Pros and cons of soft vs hard decision trees",
+    "year": "",
+    "links": [],
+    "status": "In submission"
+  },
+  {
+    "conferenceName": "BayLearn",
+    "authors": [
+      "K. Gazizov",
+      "A. Zharmagambetov",
+      "M. Á. Carreira-Perpiñán"
+    ],
+    "targetAuthor": "K. Gazizov",
+    "title": "Pros and cons of soft vs hard decision trees",
+    "year": "2023",
+    "description": "Extended abstract at Bay Area Machine Learning Symposium",
+    "links": [
+      {
+        "name": "external link",
+        "link": "#"
+      },
+      {
+        "name": "poster",
+        "link": "#"
+      }
+    ]
+  }
+]
