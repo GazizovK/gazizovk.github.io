@@ -76,6 +76,10 @@
     @include font-size;
     font-weight: 300;
     color: $primary-color;
+
+    @include media-s {
+      text-align: center;
+    }
   }
 
   &__social-links {

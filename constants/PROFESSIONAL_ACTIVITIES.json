@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Reviewer",
+    "conference": "Journal of Machine Learning Research",
+    "conferenceAcronym": "JMLR",
+    "years": ["2023"]
+  },
+  {
+    "name": "Reviewer",
+    "conference": "Neural Information Processing Systems",
+    "conferenceAcronym": "NeurIPS",
+    "years": ["2024"]
+  },
+  {
+    "name": "Reviewer",
+    "conference": "ACM SIGKDD",
+    "conferenceAcronym": "KDD",
+    "years": ["2024"]
+  },
+  {
+    "name": "Reviewer",
+    "conference": "International Conference on Learning Representations",
+    "conferenceAcronym": "ICLR",
+    "years": ["2024"]
+  }
+]

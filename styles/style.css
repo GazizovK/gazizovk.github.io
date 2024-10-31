@@ -177,6 +177,11 @@ img {
     font-size: 1.2rem;
   }
 }
+@media screen and (max-width: 575px) {
+  .start-info__job-description {
+    text-align: center;
+  }
+}
 .start-info__social-links {
   display: flex;
   align-items: center;
@@ -367,6 +372,58 @@ img {
   opacity: 0.2;
 }
 .publications__item:last-child .publications__line {
+  display: none;
+}
+
+.prof-activities {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+.prof-activities__item {
+  list-style: circle;
+  list-style-position: inside;
+  font-size: 1.8rem;
+  color: #12161f;
+}
+@media screen and (max-width: 991px) {
+  .prof-activities__item {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .prof-activities__item {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .prof-activities__item {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .prof-activities__item {
+    list-style: none;
+    text-align: center;
+  }
+}
+.prof-activities__line {
+  display: none;
+  width: 100%;
+  margin-top: 1.5rem;
+  height: 0.1rem;
+  border: 0rem solid transparent;
+  border-radius: 0.2rem;
+  background-color: #6d7c42;
+  opacity: 0.2;
+}
+@media screen and (max-width: 575px) {
+  .prof-activities__line {
+    display: block;
+  }
+}
+.prof-activities__item:last-child .prof-activities__line {
   display: none;
 }
 

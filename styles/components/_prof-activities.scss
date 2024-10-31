@@ -1,0 +1,38 @@
+.prof-activities {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  width: 100%;
+
+  &__item {
+    list-style: circle;
+    list-style-position: inside;
+    @include font-size;
+    color: $primary-color;
+
+    @include media-s {
+      list-style: none;
+      text-align: center;
+    }
+  }
+
+  &__line {
+    display: none;
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 0.1rem;
+    border: 0rem solid transparent;
+    border-radius: 0.2rem;
+    background-color: $accent-color;
+    opacity: 0.2;
+
+    @include media-s {
+      display: block;
+    }
+  }
+
+  &__item:last-child &__line {
+    display: none;
+  }
+}
