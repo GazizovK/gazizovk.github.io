@@ -77,11 +77,13 @@ img {
   transition-duration: 500ms;
   transition-timing-function: ease;
 }
-.link:hover {
-  color: #6d7c42;
-}
-.link:hover::after {
-  width: 100%;
+@media (pointer: fine) {
+  .link:hover {
+    color: #6d7c42;
+  }
+  .link:hover::after {
+    width: 100%;
+  }
 }
 
 .start-info__container {

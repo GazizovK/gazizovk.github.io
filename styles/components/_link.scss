@@ -23,11 +23,13 @@
     @include transition;
   }
 
-  &:hover {
-    color: $accent-color;
+  @media (pointer: fine) {
+      &:hover  {
+      color: $accent-color;
 
-    &::after {
-      width: 100%;
+      &::after {
+        width: 100%;
+      }
     }
   }
 }
