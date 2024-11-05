@@ -66,6 +66,7 @@ img {
 .link::after {
   content: "";
   position: absolute;
+  left: 0rem;
   bottom: -0.5rem;
   display: block;
   width: 0%;
@@ -355,6 +356,7 @@ img {
 }
 .publications__target-author {
   font-weight: 400;
+  text-decoration: underline;
 }
 .publications__links {
   display: flex;
