@@ -6,7 +6,7 @@
       "K. Gazizov"
     ],
     "targetAuthor": "K. Gazizov",
-    "title": "Hierarchical data visualization via PCA trees",
+    "title": "The tree autoencoder model, with application to hierarchical data visualization",
     "description": "Advances in Neural Information Processing Systems",
     "year": "2024",
     "links": [],
@@ -25,11 +25,7 @@
     "links": [
       {
         "name": "external link",
-        "link": "#"
-      },
-      {
-        "name": "poster",
-        "link": "#"
+        "link": "https://baylearn-org.github.io/www/submissions.html"
       }
     ]
   },
@@ -60,11 +56,7 @@
     "links": [
       {
         "name": "external link",
-        "link": "#"
-      },
-      {
-        "name": "poster",
-        "link": "#"
+        "link": "https://baylearn-org.github.io/www/2023/submissions.html"
       }
     ]
   }
