@@ -9,8 +9,20 @@
     "title": "The tree autoencoder model, with application to hierarchical data visualization",
     "description": "Advances in Neural Information Processing Systems",
     "year": "2024",
-    "links": [],
-    "status": "Accepted"
+    "links": [
+        {
+            "name": "external link",
+            "link": "https://openreview.net/forum?id=Yy0KUmneV6"
+        },
+        {
+            "name": "paper preprint",
+            "link": "./assets/docs/neurips24.pdf"
+        },
+        {
+            "name": "slides",
+            "link": "./assets/docs/neurips24-slides.pdf"
+        }
+    ]
   },
   {
     "conferenceName": "BayLearn",
@@ -26,6 +38,14 @@
       {
         "name": "external link",
         "link": "https://baylearn-org.github.io/www/submissions.html"
+      },
+      {
+        "name": "paper preprint",
+        "link": "./assets/docs/baylearn24a.pdf"
+      },
+      {
+        "name": "poster",
+        "link": "./assets/docs/baylearn24a-poster.pdf"
       }
     ]
   },
@@ -57,6 +77,14 @@
       {
         "name": "external link",
         "link": "https://baylearn-org.github.io/www/2023/submissions.html"
+      },
+      {
+        "name": "paper preprint",
+        "link": "./assets/docs/baylearn23c.pdf"
+      },
+      {
+        "name": "poster",
+        "link": "./assets/docs/baylearn23c-poster.pdf"
       }
     ]
   }
