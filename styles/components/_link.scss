@@ -1,7 +1,7 @@
 .link {
   position: relative;
   font-weight: 400;
-  color: $primary-color-light;
+  color: $link-color;
   text-decoration: none;
 
   @include transition;

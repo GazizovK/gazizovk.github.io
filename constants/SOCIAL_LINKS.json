@@ -13,5 +13,10 @@
     "name": "CV",
     "link": "./assets/docs/kgazizov_cv.pdf",
     "icon": "./assets/icons/cv.svg"
+  },
+  {
+    "name": "Google Scholar",
+    "link": "https://scholar.google.com/citations?user=jv84Q5oAAAAJ&hl=en&oi=ao",
+    "icon": "./assets/icons/google-scholar.svg"
   }
 ]
