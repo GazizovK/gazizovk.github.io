@@ -8,6 +8,7 @@
     "targetAuthor": "K. Gazizov",
     "title": "A faster training algorithm for regression trees with linear leaves, and an analysis of its complexity",
     "description": "Advances in Neural Information Processing Systems",
+    "links": [],
     "status": "In press",
     "year": "2025"
   },
@@ -21,6 +22,7 @@
     "targetAuthor": "K. Gazizov",
     "title": "Emerging Aspects in ResNet Quantization with Adaptive Codebook Sizes",
     "description": "Extended abstract at Bay Area Machine Learning Symposium",
+    "links": [],
     "status": "Oral",
     "year": "2025"
   },
